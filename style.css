@@ -10,7 +10,7 @@ h1{
     font-size: 50px;
     
 }
-section{
+.flexiable-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -33,4 +33,32 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
+}
+.Experience-item{
+ 
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    box-shadow:10px 10px 40px gray;
+    border-radius: 10px;
+    padding-left: 20px;
+  nge;
+}
+.Experience-item{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+}
+h2{
+    font-size: 40px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#Full-stack{
+    border-left: 7px solid orange;
+    
+}
+#baby-stack{
+    border-left: 7px solid blue;
 }
